@@ -1,0 +1,34 @@
+@media (min-width: 1240px) {
+  .main-app {
+    max-width: 1220px;
+  }
+}
+@media (min-width: 992px) {
+  .main-app {
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .main-app {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .main-app {
+    max-width: 100%;
+  }
+}
+.main-app {
+  position: relative;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.main-app--content {
+  padding-top: 5rem;
+}
+
+.content--page {
+  position: relative;
+  padding-top: 4rem;
+}
