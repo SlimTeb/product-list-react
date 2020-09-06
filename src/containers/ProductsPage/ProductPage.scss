@@ -1,0 +1,34 @@
+.product-page-content {
+  padding: 0;
+}
+
+.floater-content {
+  position: relative;
+}
+
+.floater-content--fixed {
+  width: 16rem;
+  display: block;
+  /*position: absolute;*/
+  padding: .7rem;
+  box-shadow: 2px 4px 10px rgba(0,0,0,.2);
+  background: #fff;
+  margin-bottom: 2rem;
+  position: fixed;
+  top: 9.7rem;
+}
+
+/*@media (min-width: 992px) {
+  .floater-content--fixed {
+    position: fixed;
+    top: 6rem;
+  }
+}*/
+
+.floater-content--fetched-data {
+  min-height: 383px;
+  margin-left: 18rem;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3rem;
+}
