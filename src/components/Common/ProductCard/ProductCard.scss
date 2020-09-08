@@ -28,6 +28,10 @@
   align-items: flex-end;
 }
 
+.product-list-item__info__header {
+  display: grid;
+}
+
 .product-list-item__info__header__name {
   display: inline-block;
   margin-bottom: .5rem;

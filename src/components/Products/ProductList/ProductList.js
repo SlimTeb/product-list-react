@@ -1,11 +1,12 @@
 import React, {useState} from "react";
 import ProductCard from "../../Common/ProductCard/ProductCard";
-import ImgP1 from "../../../../public/static/media/p1.jpg"
-import ImgP2 from "../../../../public/static/media/p2.jpg"
+import ImgP1 from "../../../../public/static/media/p1.jpg";
+import ImgP2 from "../../../../public/static/media/p2.jpg";
 import ImgP3 from "../../../../public/static/media/p3.jpg"
 import ImgP4 from "../../../../public/static/media/p4.jpg"
 import ImgP5 from "../../../../public/static/media/p5.jpg"
 import CardSkeleton from "../../Common/CardSkeleton/CardSkeleton";
+import ProductDetailDialog from "../../Dialogs/ProductDetailDialog/ProductDetailDialog";
 
 const products = [
     {
@@ -60,6 +61,7 @@ const ProductList = () => {
                     </div>
                 )
             })}
+            <ProductDetailDialog />
         </div>
     );
 }
